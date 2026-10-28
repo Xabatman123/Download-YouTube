@@ -1,4 +1,4 @@
-# YouTube Deskargau
+#  Download YouTube
 
 A Windows desktop downloader with a lightweight browser-based interface for downloading YouTube audio and video, editing media metadata, and managing embedded video subtitles.
 
@@ -18,11 +18,8 @@ A Windows desktop downloader with a lightweight browser-based interface for down
 ## Project layout
 
 ```text
-YouTube-Deskargau/
-├── README.md
-├── LEEME.md
-├── .gitignore
-├── YouTube Deskargau.vbs
+Download YouTube/
+├──  Download YouTube.vbs
 └── app/
     ├── launch_app.cmd
     ├── download_mp3.py
@@ -50,7 +47,7 @@ The `app/prepare_portable.cmd` setup script downloads the configured portable Py
 
 1. Download or clone this repository, keeping the root launcher and the `app/` folder in the same directory.
 2. Open the `app` folder and run **`prepare_portable.cmd`**. Allow it to finish and confirm that its final checks pass. This step needs an internet connection.
-3. Return to the repository root and double-click **`YouTube Deskargau.vbs`**.
+3. Return to the repository root and double-click **` Download YouTube.vbs`**.
 4. Use the Spanish UI sections to download audio/video or edit metadata and embedded subtitles.
 
 **Important:** `prepare_portable.cmd` rebuilds the `app/runtime/` directory. Do not run it while the application is open; any existing runtime in that directory will be removed and recreated. Do not rename `app/` unless you also update the paths in the VBS launcher.
