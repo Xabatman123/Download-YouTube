@@ -17,11 +17,8 @@ La interfaz conserva los nombres: **«Descargar MP3»**, **«Descargar vídeo»*
 ## Estructura del proyecto
 
 ```text
-YouTube-Deskargau/
-├── README.md
-├── LEEME.md
-├── .gitignore
-├── YouTube Deskargau.vbs
+Descargar Youtube/
+├── Descargar Youtube.vbs
 └── app/
     ├── launch_app.cmd
     ├── download_mp3.py
@@ -49,7 +46,7 @@ El script `app/prepare_portable.cmd` descarga el Python portable configurado, la
 
 1. Descarga o clona el repositorio completo. Mantén el lanzador de la raíz y la carpeta `app/` juntos.
 2. Entra en `app/` y ejecuta **`prepare_portable.cmd`**. Espera a que termine y comprueba que las verificaciones finales sean correctas. Necesita conexión a Internet.
-3. Vuelve a la raíz y ejecuta **`YouTube Deskargau.vbs`**.
+3. Vuelve a la raíz y ejecuta **` Descargar Youtube.vbs`**.
 4. Utiliza las secciones de la interfaz en español para descargar audio/vídeo o editar metadatos y subtítulos incrustados.
 
 **Importante:** `prepare_portable.cmd` elimina y vuelve a crear `app/runtime/`. No lo ejecutes mientras la aplicación esté abierta. No cambies el nombre de `app/` sin actualizar las rutas del lanzador VBS.
