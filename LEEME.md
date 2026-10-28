@@ -1,4 +1,4 @@
-# YouTube Deskargau
+# Descargar YouTube
 
 Programa de escritorio para Windows con una interfaz basada en navegador que permite descargar audio y vídeo de YouTube, editar metadatos y gestionar subtítulos incrustados en vídeo.
 
